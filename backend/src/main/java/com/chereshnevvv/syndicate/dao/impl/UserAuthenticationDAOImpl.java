@@ -24,7 +24,14 @@ public class UserAuthenticationDAOImpl implements UserAuthenticationDAO {
     }
 
     @Override
-    public ResponseEntity<Response<?>> register() {
+    public ResponseEntity<Response<?>> register(User user) {
+        // TODO registration function
+        return null;
+    }
+
+    @Override
+    public ResponseEntity<Response<?>> login(User user) {
+        // TODO authorization function
         return null;
     }
 }
